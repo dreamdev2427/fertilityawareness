@@ -4,6 +4,12 @@
   <a href="https://app.netlify.com/sites/fertilityawareness/deploys">
     <img src="https://api.netlify.com/api/v1/badges/e8c207e4-671d-42e5-acaf-4ed3e27934f0/deploy-status" alt="Netlify Status">
   </a>
+  <a href="https://aws.amazon.com/lambda/">
+    <img src="https://img.shields.io/badge/AWS-Lambda-orange?logo=amazon-aws" alt="AWS Lambda">
+  </a>
+  <a href="https://vercel.com/wowen">
+    <img src="https://therealsujitk-vercel-badge.vercel.app/?app=your-vercel-project-name" alt="Vercel">
+  </a>
   <a href="https://www.wowen.tech/">
     <img src="https://img.shields.io/badge/WOWEN-FemTech%20Dev%20Community-blueviolet" alt="WOWEN">
   </a>
