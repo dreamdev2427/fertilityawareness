@@ -309,8 +309,6 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="hero-content">
         <h1 class="hero-text splt">Digital assistent</h1>
 
-
-
         <div class="chat-container">
           <div class="chat-box"></div>
           <form>
@@ -333,8 +331,11 @@ document.addEventListener("DOMContentLoaded", function () {
             chatInput.value = '';
       
             // Send message to server
-            fetch('https://6qchbw3qg8.execute-api.eu-north-1.amazonaws.com/FertilityAwarenessAI?text=' + encodeURIComponent(message), {
-            method: 'GET',
+            fetch('http://65.108.20.101:5000/executeQuery', {
+              method: 'POST',
+              data: {
+                "text": message
+              }
              })
             .then(res => res.json())
             .then(data => {
